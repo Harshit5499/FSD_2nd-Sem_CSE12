@@ -1,0 +1,14 @@
+.container{
+    margin: 20px;
+    padding: 30px;
+    display: flexbox;
+}
+
+.container button{
+    color: aqua;
+    background-color: blue;
+}
+
+.container button:hover{
+    color: red;
+}
