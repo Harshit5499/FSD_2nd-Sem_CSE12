@@ -10,6 +10,7 @@ body{
     border-radius: 10px;
     background-color: aquamarine;
     box-sizing: border-box;
+    box-shadow: 10px;
 }
 
 .container button{
