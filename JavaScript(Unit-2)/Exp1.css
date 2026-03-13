@@ -1,7 +1,15 @@
+body{
+    text-align: center;
+}
+
 .container{
     margin: 20px;
     padding: 30px;
+    width: 400px;
     display: flexbox;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-sizing: border-box;
 }
 
 .container button{
