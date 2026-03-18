@@ -76,7 +76,7 @@ function showAverage(){
 
 function topStudents(){
 
-  let result = "<h3>Students Above 80 Average</h3>";
+  let result = "<h3>Students Above 80.0 Average</h3>";
 
   for(let s of students){
 
