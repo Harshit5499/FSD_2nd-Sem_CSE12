@@ -11,3 +11,4 @@ paragraphs[0].style.fontSize="30px";
 let newdiv = document.createElement("div");
 newdiv.textContent="This ia a div created using JavaScript";
 document.body.appendChild(newdiv);
+newdiv[0].style.color="blue";
