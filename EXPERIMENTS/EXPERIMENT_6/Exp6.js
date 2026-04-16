@@ -21,6 +21,7 @@ document.getElementById("bgColorBtn").onclick = function () {
 document.getElementById("fontSizeBtn").addEventListener("click", function () {
     fontSize += 2;
     paragraph.style.fontSize = fontSize + "px";
+    heading.style.fontSize = fontSize + "px";
 });
 
 // Show/Hide paragraph
