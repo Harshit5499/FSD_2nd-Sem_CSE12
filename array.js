@@ -6,6 +6,10 @@
 // console.log(person.name);
 // console.log(person.age);
 // console.log(person.city);
+// typeof
+// console.log(typeof(person));
+
+
 // let numbers = [1,2,3,4,5];
 // console.log(numbers[0]);
 // console.log(numbers[1]);
@@ -23,4 +27,18 @@
 // let sqrdArray = newarray.map(num => num*num);
 // console.log(sqrdArray);
 
-let evenNum = []
+// function greet(){
+//     console.log("Hello, World!")
+// }
+// greet();
+
+// function multiply(a,b){
+//     return a*b;
+// }
+// console.log(multiply(2,3));
+
+// const add = (a,b) => a+b;
+// console.log(add(2,3)); 
+
+// const mul = (a,b) => a*b;
+// console.log(mul(3,4));
