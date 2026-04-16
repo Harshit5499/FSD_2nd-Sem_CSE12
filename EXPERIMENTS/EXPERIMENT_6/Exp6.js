@@ -17,11 +17,15 @@ document.getElementById("bgColorBtn").onclick = function () {
        
 };
 
+input.onchange = function(){
+    console.log("Input Changed :",input.value)
+};
+
 // Increase font size
 document.getElementById("fontSizeBtn").addEventListener("click", function () {
     fontSize += 2;
-    paragraph.style.fontSize = fontSize + "px";
-    heading.style.fontSize = fontSize + "px";
+    paragraph.style.fontSize = Math.min(fontSize,40) + "px";
+    heading.style.fontSize = Math.min(fontSize,40) + "px";
 });
 
 // Show/Hide paragraph
@@ -35,10 +39,9 @@ document.getElementById("toggleBtn").addEventListener("click", function () {
 
 // Reset page
 document.getElementById("resetBtn").addEventListener("click", function () {
-    heading.innerHTML = "Welcome to JavaScript Lab";
-    paragraph.style.display = "block";
-    paragraph.style.fontSize = "16px";
-    document.body.style.backgroundColor = "#f4f4f4";
-    input.value = "";
-    fontSize = 16;
+    location.reload();
 });
+
+heading.onmouseover = function () {
+    heading.style.color = "red";
+};
