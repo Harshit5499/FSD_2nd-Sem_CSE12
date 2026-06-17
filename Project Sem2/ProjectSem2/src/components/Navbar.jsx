@@ -1,44 +1,23 @@
-import { useCart } from "../context/CartContext";
-import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
-<link to="/Cart">
-{totalItems}
-</link>
-function Navbar({ searchTerm, setSearchTerm }) {
-  const { cart } = useCart();
-  const totalItems = cart.reduce(
-    (sum, item) => sum + item.quantity,
-    0
-  );
-  <div className="cart">
-    {totalItems}
-  </div>
-
+function Navbar() {
   return (
-    <header className="navbar">
+    <nav className="navbar">
 
-      <div className="logo">
-        <h2>Amazon</h2>
-      </div>
+      <p>
+        <FaBars />
+        All
+      </p>
 
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search products"
-          value={searchTerm}
-          onChange={(e) =>
-            setSearchTerm(e.target.value)
-          }
-        />
+      <p>Today's Deals</p>
+      <p>Best Sellers</p>
+      <p>Mobiles</p>
+      <p>Electronics</p>
+      <p>Fashion</p>
+      <p>Prime</p>
+      <p>Customer Service</p>
 
-        <button>Search</button>
-      </div>
-
-      <div className="cart">
-        🛒 {cart.length}
-      </div>
-
-    </header>
+    </nav>
   );
 }
 

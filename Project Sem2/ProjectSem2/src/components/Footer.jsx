@@ -1,39 +1,38 @@
 function Footer() {
   return (
-    <>
-      <section
-        className="backtotop"
-        align="center"
-      >
-        <a href="#menu">
-          Back to Top
-        </a>
-      </section>
+    <footer>
 
-      <div className="ending">
+      <div className="backTop">
+        Back to top
+      </div>
 
-        <div className="end">
-          <h3>
-            Get To Know Us
-          </h3>
+      <div className="footerLinks">
 
+        <div>
+          <h3>Get to Know Us</h3>
           <p>About Amazon</p>
           <p>Careers</p>
-          <p>Press Releases</p>
-          <p>Amazon Science</p>
         </div>
 
-        {/* Other columns */}
+        <div>
+          <h3>Connect with Us</h3>
+          <p>Facebook</p>
+          <p>Instagram</p>
+        </div>
+
+        <div>
+          <h3>Make Money with Us</h3>
+          <p>Sell on Amazon</p>
+          <p>Affiliate</p>
+        </div>
 
       </div>
 
-      <footer>
-        <p>
-          © 2026 Amazon Clone.
-          All rights reserved.
-        </p>
-      </footer>
-    </>
+      <div className="copyright">
+        © Amazon Clone 2026
+      </div>
+
+    </footer>
   );
 }
 

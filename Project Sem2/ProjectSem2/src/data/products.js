@@ -1,20 +1,31 @@
-export const products = [
-    { id: 1, name: 'Shirt For Men', price: 499, image: 'shirt.jpg',category: 'fashion'},
-    { id: 2, name: 'Electric Kettle', price: 899, image: 'kettle.jpg',category: 'appliances'},
-    { id: 3, name: 'Toy Car For Kids', price: 599, image: 'car.jpg',category: 'toys'},
-    { id: 4, name: 'Iphone 15', price: 49999, image: 'mobile.webp',category: 'electronics'},
-    { id: 5, name: 'Running Shoes', price: 1399, image: 'shoes.jpg',category: 'fashion'},
-    { id: 6, name: 'Decorative Lights', price: 297, image: 'lights.jpg',category: 'home'},
-    { id: 7, name: 'Massive Art Kit', price: 649, image: 'art.jpg',category: 'toys'},
-    { id: 8, name: 'N95 Mask (Pack of 10)', price: 499, image: 'mask.jpg',category: 'essentials'},
-    { id: 9, name: 'Miniature ROBO', price: 7999, image: 'robo.jpg',category: 'toys'},
-    { id: 10, name: '32 Inch TV', price: 21999, image: 'tv.jpg',category: 'electronics'},
-    { id: 11, name: 'BOAT Lunar Watch', price: 1999, image: 'watch.jpg',category: 'electronics'},
-    { id: 12, name: 'Hand Sanitizer', price: 499, image: 'sani.jpg',category: 'essentials'},
-    { id: 13, name: 'Louis Vuitton Glasses', price: 1499, image: 'lv.webp',category: 'fashion'},
-    { id: 14, name: 'GoPro A13 Black', price: 24999, image: 'gpro.jpg',category: 'electronics'},
-    { id: 15, name: 'KOOKABURRA Cricket Bat', price: 8999, image: 'bat.jpg',category: 'sports'},
-    { id: 16, name: 'Lord Ganesha Idol', price: 2599, image: 'god.webp',category: 'home'},
-    { id: 17, name: 'Mens Face Wash', price: 199, image: 'fw.webp',category: 'essentials'},
-    { id: 18, name: 'Gucci Bag For Women', price: 249999, image: 'bagw.webp',category: 'fashion'},
+const products = [
+  {
+    id: 1,
+    title: "Gaming Accessories",
+    image:
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e"
+  },
+
+  {
+    id: 2,
+    title: "Smartphones",
+    image:
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  },
+
+  {
+    id: 3,
+    title: "Fashion Deals",
+    image:
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8"
+  },
+
+  {
+    id: 4,
+    title: "Home Essentials",
+    image:
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+  }
 ];
+
+export default products;
